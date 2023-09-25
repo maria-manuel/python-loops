@@ -55,6 +55,7 @@ length = len(songs)
 while i < length:
    song = songs[i]
    print('Beatles song is: ', song)
+   i = i + 1
 
 
 print('Challenge 3 -------------')

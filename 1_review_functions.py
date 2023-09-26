@@ -66,8 +66,11 @@ print('Challenge 3 -------------')
 
 # print('Hi', name)
 
+def anyname(name=None):
+    print('Hi', name)
 
-
+anyname('Maria')
+anyname('Keanu')
 
 
 print('Challenge 4 -------------')
@@ -75,8 +78,11 @@ print('Challenge 4 -------------')
 # 1. Write a while loop that will count down from 100 to 48, by increments of 7.
 # 2. Print each number on a separate line
 
+i = 100
 
-
+while i > 48:
+    print(i)
+    i = i - 7
 
 
 print('Challenge 5 -------------')

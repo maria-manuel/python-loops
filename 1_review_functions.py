@@ -90,6 +90,16 @@ print('Challenge 5 -------------')
 # Examine the following data. Write a while loop that will look at each item in
 # the list, and output each row of data in the format of:
 # Top hit from the 60s: I'm a believer ...  Artist: The Monkees.
+# data = [
+#     ["I'm a Believer", 'The Monkees'],
+#     ['Respect', 'Aretha Franklin'],
+#     ["(I Can't No) Satisfaction", 'The Rolling Stones'],
+#     ['Good Vibrations', 'The Beach Boys'],
+#     ['My Girl', 'The Temptations'],
+#     ["I Can't Stop Loving You", 'Ray Charles'],
+#     ["Blowin' in the Wind", 'Bob Dylan'],
+# ]
+
 data = [
     ["I'm a Believer", 'The Monkees'],
     ['Respect', 'Aretha Franklin'],
@@ -100,7 +110,14 @@ data = [
     ["Blowin' in the Wind", 'Bob Dylan'],
 ]
 
-
+i = 0
+length = (len(data))
+while i < length:
+    row = data[i]
+    song_title = row[0]
+    artist_name = row[1]
+    print("Top hit from the 60s: " + song_title + "; " + "Artist: " + artist_name + ".")
+    i = i + 1
 
 
 
@@ -114,6 +131,11 @@ print('Challenge 6 -------------')
 # HINT: It should use another variable to keep track of alternation between
 # "two steps forward" and "one step back". Within the while loop it should have
 # an if-statement. Consider using Boolean values True and False.
+
+
+
+
+
 
 
 

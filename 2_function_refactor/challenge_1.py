@@ -10,3 +10,12 @@ def print_buildings():
 
 # TODO: Write invocations to display two roads, with buildings on each side
 
+print_buildings()
+print_road()
+
+print_buildings()
+print_road()
+
+print_buildings()
+
+

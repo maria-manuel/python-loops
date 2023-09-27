@@ -72,30 +72,20 @@ def main():
     print('Cosplay time! Enter measurements for costume.')
 
     print('Enter the bust or chest measurement:')
-
     integer_value = get_measurement()
-
     bust = integer_value
 
-
     print('Enter the waist measurement:')
-
     integer_value=get_measurement()
-
     waist = integer_value
 
 
     print('Enter the hip measurement:')
-
     integer_value=get_measurement()
-
     hips = integer_value
 
-
     print('Enter the height (hollow to hem) measurement:')
-
     integer_value=get_measurement()
-
     height = integer_value
 
 

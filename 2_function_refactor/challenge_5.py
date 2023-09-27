@@ -1,4 +1,7 @@
 
+# def budget_animal_for_one_day():
+
+
 def zoo_budgeter():
     animal_name = 'Zebras'
     print('--- ZOO FOOD BUDGET ---')

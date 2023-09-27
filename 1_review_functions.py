@@ -161,10 +161,13 @@ print('Challenge 7 -------------')
 #while answer != 'quit':
 #    answer = input('Choice? ')
 
-answer = None
-while answer != 'quit':
+def asker():
+    answer = None
+    while answer != 'quit':
         answer = input('Choice? ')
         print(answer)
+
+asker()
 
 
 # STEP-BY-STEP HINTS (Challenge 7):

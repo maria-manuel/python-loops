@@ -161,29 +161,10 @@ print('Challenge 7 -------------')
 #while answer != 'quit':
 #    answer = input('Choice? ')
 
-# answer = ''
-# while answer != 'quit' or 'presently':
-#     answer = input('Choice? ')
-#     return answer
-
-# print(answer)
-
-# answer = ''
-# def function(answer='presently, only, quit'):
-    
-#     while answer == 'presently' or 'only' or 'quit':
-#         answer = input('Choice?')
-#         print(answer)
-
-        # answer = input('Choice? ')
-#     else:
-
-
-# keep aking until it gets a valid code
-# return option user selected
-# add print code to reminder user of valid choices
-
-
+answer != None:
+while answer != 'quit':
+        answer = input('Choice? ')
+        print(answer)
 
 
 # STEP-BY-STEP HINTS (Challenge 7):
@@ -207,9 +188,7 @@ print('Challenge 7 -------------')
 #     options.
 
 
-
-
-
+de
 print('-------------')
 # Bonus Challenge:
 # Using the skills you have learned so far, write a "hang-man" word guessing

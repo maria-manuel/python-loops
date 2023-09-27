@@ -161,7 +161,7 @@ print('Challenge 7 -------------')
 #while answer != 'quit':
 #    answer = input('Choice? ')
 
-answer != None:
+answer = None
 while answer != 'quit':
         answer = input('Choice? ')
         print(answer)

@@ -129,13 +129,19 @@ print('Challenge 6 -------------')
 # 1 3 2 4 3 5 4 6 8 7 9 8 10 9
 
 # HINT: It should use another variable to keep track of alternation between
-# "two steps forward" and "one step back". Within the while loop it should have
+# "two steps forward (plus 2)" and "one step back (minus 1)". Within the while loop it should have
 # an if-statement. Consider using Boolean values True and False.
 
-
-
-
-
+i = 1
+two_steps_forward = True
+while i < 11:
+    print(i)
+    if two_steps_forward:
+        i = i + 2
+        two_steps_forward = False
+    else:
+        i = i - 1
+        two_steps_forward = True
 
 
 
@@ -155,9 +161,27 @@ print('Challenge 7 -------------')
 #while answer != 'quit':
 #    answer = input('Choice? ')
 
+# answer = ''
+# while answer != 'quit' or 'presently':
+#     answer = input('Choice? ')
+#     return answer
+
+# print(answer)
+
+# answer = ''
+# def function(answer='presently, only, quit'):
+    
+#     while answer == 'presently' or 'only' or 'quit':
+#         answer = input('Choice?')
+#         print(answer)
+
+        # answer = input('Choice? ')
+#     else:
 
 
-
+# keep aking until it gets a valid code
+# return option user selected
+# add print code to reminder user of valid choices
 
 
 

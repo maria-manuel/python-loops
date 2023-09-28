@@ -22,6 +22,8 @@ fave_things = [
 for thing in fave_things:
     print(thing)
 
+
+
 print('Challenge 2 -------------')
 # Challenge 2:
 # Uncomment the following code. Fix the typos!
@@ -43,6 +45,7 @@ for item in fave_things:
 
 for item in fave_things:
    print('Third) i like', item)
+
 
 
 print('Challenge 3 -------------')
@@ -83,13 +86,6 @@ print(total)
 
 
 
-
-
-
-
-
-
-
 print('Challenge 4 -------------')
 # Challenge 4:
 # 1. Let's repeat Challenge 5 from the previous activity, only using the
@@ -97,6 +93,21 @@ print('Challenge 4 -------------')
 # 2. Examine the following data. Write a for loop that will look at each item
 # in the list, and output each row of data in the format of:
 # Top hit from the 60s: I'm a believer ...  Artist: The Monkees.
+# data = [
+#     ["I'm a Believer", 'The Monkees'],
+#     ['Respect', 'Aretha Franklin'],
+#     ["(I Can't No) Satisfaction", 'The Rolling Stones'],
+#     ['Good Vibrations', 'The Beach Boys'],
+#     ['My Girl', 'The Temptations'],
+#     ["I Can't Stop Loving You", 'Ray Charles'],
+#     ["Blowin' in the Wind", 'Bob Dylan'],
+# ]
+
+# Hint: Once you get it working, see if you can refactor it using the following
+# Python trick:
+# for song, artist in data:
+
+
 data = [
     ["I'm a Believer", 'The Monkees'],
     ['Respect', 'Aretha Franklin'],
@@ -107,10 +118,8 @@ data = [
     ["Blowin' in the Wind", 'Bob Dylan'],
 ]
 
-
-# Hint: Once you get it working, see if you can refactor it using the following
-# Python trick:
-# for song, artist in data:
+for item in data:
+   print('Top hit from the 60s: ' + item[0] + ' ' + item[1])
 
 
 

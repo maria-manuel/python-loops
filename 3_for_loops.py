@@ -35,14 +35,14 @@ print('Challenge 2 -------------')
 #for(item in fave_things):
 #    print('i like', item)
 
-# for item in fave_things:
-#    print('First) i like', item)
+for item in fave_things:
+   print('First) i like', item)
 
-# for item in fave_things:
-#    print('Second) i like', item)
+for item in fave_things:
+   print('Second) i like', item)
 
-# for item in fave_things:
-#    print('Third) i like', item)
+for item in fave_things:
+   print('Third) i like', item)
 
 
 print('Challenge 3 -------------')

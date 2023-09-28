@@ -1,15 +1,26 @@
 # REMINDER: Start with print, and save and test after every change.
 
+print('Hello loop world!')
+
 print('Challenge 1 -------------')
 # Challenge 1:
 # Can you write the code to do a for-loop across "fave_things" printing out
 # each item?
+
+# fave_things = [
+#     'cats',
+#     'dogs',
+#     'books',
+# ]
+
 fave_things = [
     'cats',
     'dogs',
     'books',
 ]
 
+for thing in fave_things:
+    print(thing)
 
 print('Challenge 2 -------------')
 # Challenge 2:
@@ -24,7 +35,14 @@ print('Challenge 2 -------------')
 #for(item in fave_things):
 #    print('i like', item)
 
+# for item in fave_things:
+#    print('First) i like', item)
 
+# for item in fave_things:
+#    print('Second) i like', item)
+
+# for item in fave_things:
+#    print('Third) i like', item)
 
 
 print('Challenge 3 -------------')

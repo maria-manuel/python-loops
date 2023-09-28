@@ -50,13 +50,13 @@ print('Challenge 3 -------------')
 # One of the most popular uses of for loops is to process numeric data. In this
 # challenge, you will be looping through the grades, adding them all together.
 # Then, you should print the result of sum of grades.
-grades = [
-    91.4,
-    85.3,
-    95.0,
-    33.5,
-]
-total = 0
+# grades = [
+#     91.4,
+#     85.3,
+#     95.0,
+#     33.5,
+# ]
+# total = 0
 
 # TODO: Fill in here...
 # HINTS:
@@ -65,7 +65,23 @@ total = 0
 # This can also be used for a variable, such as the variable you use in a
 # loop:
 # total += grade
-print(total)
+# print(total)
+
+
+grades = [
+    91.4,
+    85.3,
+    95.0,
+    33.5,
+]
+
+total = 0
+for grade in grades:
+   total = total + grade
+   
+print(total)   
+
+
 
 
 

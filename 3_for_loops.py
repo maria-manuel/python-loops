@@ -119,7 +119,7 @@ data = [
 ]
 
 for item in data:
-   print('Top hit from the 60s: ' + item[0] + ' ' + item[1])
+   print('Top hit from the 60s: ' + item[0] + ', ' + 'Artist: ' + item[1])
 
 
 
@@ -161,6 +161,10 @@ data = [
     },
 ]
 
+for item in data:
+   print('Name: ', item['product_name'])
+   print('Supplied by: ', item['supplier'])
+   print('Available: ', item['quantity'], '(at', item['unit_cost'],'a piece)')
 
 
 print('-------------')
